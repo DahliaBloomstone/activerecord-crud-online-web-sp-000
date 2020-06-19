@@ -18,7 +18,7 @@ def can_be_created_with_a_hash_of_attributes(attributes)
       release_date: 1973,
       director: "George Roy Hill",
       lead: "Paul Newman",
-      in_theatres?: false
+      in_theatres: false
   }
   movie = Movie.create(attributes)
 end
